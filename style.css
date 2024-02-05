@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;500;700");
+
+.container {
+  width: 700px;
+  margin: 0px auto;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 700px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background-color: #F8F8F9;
+  color: #2b2b2b;
+  font-size: 17px;
+  line-height: 1.5rem;
+}
+
+.profilepic {
+  width: 100px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #3D2645;
+  font-size: 2.125rem;
+  line-height: 1.0rem;
+}
+
+h2 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #3D2645;
+  font-size: 1.875rem;
+  line-height: 1.067rem;
+}
+
+a {
+  color:#832161;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #832161;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+a:hover {
+  background-color: #3D2645;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
